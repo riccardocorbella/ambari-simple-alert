@@ -1,0 +1,16 @@
+{
+  "AlertDefinition" : {
+    "service_name" : "FLUME",
+    "component_name" : "FLUME_HANDLER",
+    "name": "fake_alert",
+    "label": "FAKE ALERT",
+    "description": "This is a fake alert.",
+    "interval": 1,
+    "scope": "SERVICE",
+    "enabled": true,
+    "source": {
+      "type": "SCRIPT",
+      "path": "simple-script.py"
+    }
+  }
+}
